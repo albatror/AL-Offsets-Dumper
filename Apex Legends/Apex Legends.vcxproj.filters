@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="3rd\IO.cpp">
+      <Filter>3rd</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp" />
+    <ClCompile Include="miscellaneous.cpp" />
+    <ClCompile Include="3rd\PS.cpp">
+      <Filter>3rd</Filter>
+    </ClCompile>
+    <ClCompile Include="buttons.cpp" />
+    <ClCompile Include="convars.cpp" />
+    <ClCompile Include="netvars.cpp" />
+    <ClCompile Include="weapons.cpp" />
+    <ClCompile Include="scripts.cpp" />
+    <ClCompile Include="functions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3rd">
+      <UniqueIdentifier>{f4abaad0-a2b5-4221-8e17-c318ab75ab81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3rd\IO.h">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h" />
+    <ClInclude Include="Based.h" />
+    <ClInclude Include="miscellaneous.h" />
+    <ClInclude Include="3rd\PS.h">
+      <Filter>3rd</Filter>
+    </ClInclude>
+    <ClInclude Include="buttons.h" />
+    <ClInclude Include="convars.h" />
+    <ClInclude Include="netvars.h" />
+    <ClInclude Include="weapons.h" />
+    <ClInclude Include="scripts.h" />
+    <ClInclude Include="functions.h" />
+  </ItemGroup>
+</Project>
